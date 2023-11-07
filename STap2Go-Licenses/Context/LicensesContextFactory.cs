@@ -5,10 +5,11 @@ namespace STap2Go_Licenses.Context
 {
 	public class LicensesContextFactory : IDesignTimeDbContextFactory<LicensesContext>
 	{
+
 		public LicensesContext CreateDbContext(string[] args)
 		{
-			IConfigurationRoot configuration = 
-				new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+			IConfigurationRoot configuration =
+				new ConfigurationBuilder().AddJsonFile("appsettings.licenses.json").Build();
 			var builder = new DbContextOptionsBuilder<LicensesContext>();
 			var connectionString = configuration.GetConnectionString("Default");
 

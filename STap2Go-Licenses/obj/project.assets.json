@@ -1571,11 +1571,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licenses.csproj",
+      "projectUniqueName": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
       "projectName": "STap2Go-Licenses",
-      "projectPath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licenses.csproj",
+      "projectPath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
       "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\obj\\",
+      "outputPath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licenses\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

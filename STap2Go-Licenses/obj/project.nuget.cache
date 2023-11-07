@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mekNIIdx6h+DW9UbxbYlUvH8I1VIIE+NoktD1ezgwMulJ1dkW5k+XKwHReiOEdeB837MsKW1IeCESxnd0K4MKw==",
+  "dgSpecHash": "6DGMtWSrQvq8FbtgsCMq6gGu9TkOeYAgB6mCdsOCZGtwwTFz5HOnRZq5oVbkiw3Xn+bS1pG8F7LX1rCPceNLMQ==",
   "success": true,
-  "projectFilePath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licenses.csproj",
+  "projectFilePath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victor\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

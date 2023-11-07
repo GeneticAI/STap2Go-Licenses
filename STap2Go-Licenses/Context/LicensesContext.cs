@@ -17,7 +17,18 @@ namespace STap2Go_Licenses.Context
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			optionsBuilder.UseLazyLoadingProxies();
+			if (!optionsBuilder.IsConfigured)
+			{
+				IConfigurationRoot configuration = new ConfigurationBuilder()
+					.AddJsonFile("appsettings.licenses.json")
+					.Build();
+				var connectionString = configuration.GetConnectionString("Default");
+				optionsBuilder
+					.UseLazyLoadingProxies()
+					.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+
+			}
+
 		}
 
 		public DbSet<Client> Clients { get; set; }

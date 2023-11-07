@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace STap2Go_Licenses.Entities
 {
@@ -18,17 +19,17 @@ namespace STap2Go_Licenses.Entities
 		[Column("ApellidoContacto")]
 		public string LastName { get; set; }
 		[Column("EsEmpresa")]
-		public bool IsCompany { get; set; }
+		public bool? IsCompany { get; set; }
 		[Column("NIFContacto")]
-		public string ContactNIF { get; set; }
+		public string? ContactNIF { get; set; }
 		[Column("NombreEmpresa")]
-		public string CompanyName { get; set; }
+		public string? CompanyName { get; set; }
 		[Column("NIFEmpresa")]
-		public string CompanyNIF { get; set; }
+		public string? CompanyNIF { get; set; }
 		[Column("Direccion1")]
 		public string Address1 { get; set; }
 		[Column("Direccion2")]
-		public string Address2 { get; set; }
+		public string? Address2 { get; set; }
 		[Column("CodigoPostal")]
 		public string PostalCode { get; set; }
 		[Column("Provincia")]
@@ -38,6 +39,7 @@ namespace STap2Go_Licenses.Entities
 		[Column("Pais")]
 		public string Country { get; set; }
 
+		[JsonIgnore]
 		public virtual ICollection<License> Licenses { get; set; }
 	}
 }
