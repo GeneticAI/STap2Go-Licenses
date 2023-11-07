@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licences.csproj": {}
+    "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licenses.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licences.csproj": {
+    "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licenses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licences.csproj",
-        "projectName": "STap2Go-Licences",
-        "projectPath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licences.csproj",
+        "projectUniqueName": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licenses.csproj",
+        "projectName": "STap2Go-Licenses",
+        "projectPath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\STap2Go-Licenses.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
         "outputPath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licences\\obj\\",
         "projectStyle": "PackageReference",
