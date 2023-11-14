@@ -33,5 +33,6 @@ namespace STap2Go_Licenses.Context
 
 		public DbSet<Client> Clients { get; set; }
 		public DbSet<License> Licenses { get; set; }
+		public DbSet<Product> Products { get; set; }
 	}
 }

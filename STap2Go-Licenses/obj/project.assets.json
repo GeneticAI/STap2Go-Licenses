@@ -1565,23 +1565,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Victor\\.nuget\\packages\\": {},
+    "C:\\Users\\Fausto\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
+      "projectUniqueName": "C:\\Development\\Projects\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
       "projectName": "STap2Go-Licenses",
-      "projectPath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
-      "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Projects\\STap2Go-Licences\\STap2Go-Licenses\\obj\\",
+      "projectPath": "C:\\Development\\Projects\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
+      "packagesPath": "C:\\Users\\Fausto\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\Projects\\STap2Go-Licenses\\STap2Go-Licenses\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fausto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1590,6 +1590,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1654,7 +1655,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 
 namespace STap2Go_Licenses.Entities
@@ -12,7 +13,6 @@ namespace STap2Go_Licenses.Entities
 		[Column("IdLicencia")]
 		public int Id { get; set; }
 		[Column("IdCliente")]
-
 		[ForeignKey("Client")]
 		public int ClientId { get; set; }
 		[Column("Licencia")]
@@ -25,9 +25,14 @@ namespace STap2Go_Licenses.Entities
 		public DateTime? AssignmentDate { get; set; }
 		[Column("FechaUso")]
 		public DateTime? UsageDate { get; set; }
-
+		[ForeignKey("Product")]
+		public int ProductId { get; set; }
+		public string? Metadata { get; set; }
+		
 		[JsonIgnore]
 		public virtual Client? Client { get; set; }
+		[JsonIgnore]
+		public virtual Product? Product { get; set; }
 
 		public License toDto()
 		{
@@ -39,7 +44,9 @@ namespace STap2Go_Licenses.Entities
 				Status = this.Status,
 				CreationDate = this.CreationDate,
 				AssignmentDate = this.AssignmentDate,
-				UsageDate = this.UsageDate
+				UsageDate = this.UsageDate,
+				ProductId = this.ProductId,
+				Metadata = this.Metadata
 			};
 		}
 	}
