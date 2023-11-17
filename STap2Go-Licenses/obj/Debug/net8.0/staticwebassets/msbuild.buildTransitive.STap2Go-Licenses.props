@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\STap2Go-Licenses.props" />
+</Project>

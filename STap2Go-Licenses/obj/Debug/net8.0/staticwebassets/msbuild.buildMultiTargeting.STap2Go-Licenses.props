@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\STap2Go-Licenses.props" />
+</Project>

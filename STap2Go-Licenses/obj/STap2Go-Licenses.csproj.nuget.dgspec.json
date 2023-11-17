@@ -1,37 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Projects\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj": {}
+    "C:\\Development\\Projects\\GeneticAI\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Projects\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj": {
+    "C:\\Development\\Projects\\GeneticAI\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Projects\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
+        "projectUniqueName": "C:\\Development\\Projects\\GeneticAI\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
         "projectName": "STap2Go-Licenses",
-        "projectPath": "C:\\Development\\Projects\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
-        "packagesPath": "C:\\Users\\Fausto\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Projects\\STap2Go-Licenses\\STap2Go-Licenses\\obj\\",
+        "projectPath": "C:\\Development\\Projects\\GeneticAI\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
+        "packagesPath": "C:\\Users\\diuke\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Projects\\GeneticAI\\STap2Go-Licenses\\STap2Go-Licenses\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Fausto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\diuke\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -42,34 +37,34 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0-beta.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -91,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
