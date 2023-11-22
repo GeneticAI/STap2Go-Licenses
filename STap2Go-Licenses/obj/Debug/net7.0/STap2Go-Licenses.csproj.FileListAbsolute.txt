@@ -70,3 +70,4 @@ C:\Development\Projects\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\refin
 C:\Development\Projects\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.pdb
 C:\Development\Projects\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.genruntimeconfig.cache
 C:\Development\Projects\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\ref\STap2Go-Licenses.dll
+C:\Development\Projects\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.sourcelink.json
