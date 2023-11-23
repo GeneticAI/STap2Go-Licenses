@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("STap2Go-Licenses")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95822216b911df966d2506eedb8fefb1da704330")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a85e3891ab5ca9ef7439e120681ecd21025c0e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("STap2Go-Licenses")]
 [assembly: System.Reflection.AssemblyTitleAttribute("STap2Go-Licenses")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
