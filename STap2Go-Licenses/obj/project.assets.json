@@ -1703,19 +1703,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diuke\\.nuget\\packages\\": {}
+    "C:\\Users\\Victor\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Projects\\GeneticAI\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
+      "projectUniqueName": "C:\\Development\\Projects\\STap2Go Projects\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
       "projectName": "STap2Go-Licenses",
-      "projectPath": "C:\\Development\\Projects\\GeneticAI\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
-      "packagesPath": "C:\\Users\\diuke\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Projects\\GeneticAI\\STap2Go-Licenses\\STap2Go-Licenses\\obj\\",
+      "projectPath": "C:\\Development\\Projects\\STap2Go Projects\\STap2Go-Licenses\\STap2Go-Licenses\\STap2Go-Licenses.csproj",
+      "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\Projects\\STap2Go Projects\\STap2Go-Licenses\\STap2Go-Licenses\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\diuke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1723,6 +1728,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1787,20 +1793,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
