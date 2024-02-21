@@ -8,4 +8,6 @@ public record LicenseCreateDTO
     public int ClientId { get; set; }
     [JsonPropertyName("Cantidad")]
     public int Quantity { get; set; }
+    [JsonPropertyName("IdProducto")]
+    public int ProductId { get; set; }
 }

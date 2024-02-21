@@ -121,3 +121,27 @@ C:\Development\Projects\STap2Go Projects\STap2Go-Licenses\STap2Go-Licenses\obj\D
 C:\Development\Projects\STap2Go Projects\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.pdb
 C:\Development\Projects\STap2Go Projects\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.genruntimeconfig.cache
 C:\Development\Projects\STap2Go Projects\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\ref\STap2Go-Licenses.dll
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\bin\Debug\net7.0\appsettings.licenses.Development.json
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\bin\Debug\net7.0\appsettings.licenses.json
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\bin\Debug\net7.0\STap2Go-Licenses.deps.json
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\bin\Debug\net7.0\STap2Go-Licenses.runtimeconfig.json
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\bin\Debug\net7.0\STap2Go-Licenses.dll
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\bin\Debug\net7.0\STap2Go-Licenses.pdb
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.csproj.AssemblyReference.cache
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.AssemblyInfoInputs.cache
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.AssemblyInfo.cs
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.csproj.CoreCompileInputs.cache
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\staticwebassets.build.json
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\staticwebassets.development.json
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\staticwebassets\msbuild.STap2Go-Licenses.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\staticwebassets\msbuild.build.STap2Go-Licenses.props
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.STap2Go-Licenses.props
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.STap2Go-Licenses.props
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\scopedcss\bundle\STap2Go-Licenses.styles.css
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.dll
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\refint\STap2Go-Licenses.dll
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.pdb
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\STap2Go-Licenses.genruntimeconfig.cache
+D:\Development\Projects\GeneticAI\STap2Go-Licenses\STap2Go-Licenses\obj\Debug\net7.0\ref\STap2Go-Licenses.dll

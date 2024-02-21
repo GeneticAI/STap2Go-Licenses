@@ -8,6 +8,8 @@ public record LicenseReadDTO
     public int Id { get; set; }
     [JsonPropertyName("IdCliente")]
     public int ClientId { get; set; }
+    [JsonPropertyName("IdProducto")]
+    public int ProductId { get; set; }
     [JsonPropertyName("Licencia")]
     public string LicenseCode { get; set; }
     [JsonPropertyName("Estado")]
