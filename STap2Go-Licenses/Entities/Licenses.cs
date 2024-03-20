@@ -11,7 +11,9 @@
         public string? Metadata { get; set; }
 
         public string ClientId { get; set; } = string.Empty;
+        public virtual User? Client { get; set; }
 
         public int ProductId { get; set; }
+        public virtual Product? Product { get; set; }
     }
 }
