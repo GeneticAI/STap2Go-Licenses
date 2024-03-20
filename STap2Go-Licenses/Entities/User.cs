@@ -1,6 +1,6 @@
 ﻿namespace STap2Go_Licenses.Entities
 {
-    public class User
+    public record User
     {
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
