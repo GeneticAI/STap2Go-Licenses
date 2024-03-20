@@ -1,6 +1,8 @@
-﻿namespace STap2Go_Licenses.Entities
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace STap2Go_Licenses.Entities
 {
-    public record User
+    public class User: IdentityUser
     {
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
