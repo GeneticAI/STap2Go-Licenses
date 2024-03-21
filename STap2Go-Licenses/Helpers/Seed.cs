@@ -9,7 +9,7 @@ namespace STap2Go_Licenses.Helpers
         public static void SeedData(UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
         {
             SeedRoles(roleManager);
-            SeedAdmin(userManager, roleManager);
+            SeedAdmin(userManager);
         }
 
         private static void SeedRoles(RoleManager<IdentityRole> roleManager)
@@ -31,7 +31,7 @@ namespace STap2Go_Licenses.Helpers
             }
         }
 
-        private static void SeedAdmin(UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
+        private static void SeedAdmin(UserManager<User> userManager)
         {
             // Check if admin user exists
             if(userManager.FindByEmailAsync("smarin@geneticai.com").Result == null)
