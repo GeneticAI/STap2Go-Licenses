@@ -1,6 +1,6 @@
 ﻿namespace STap2Go_Licenses.Roles
 {
-    public enum Roles
+    public enum Role
     {
         Admin,
         Client
