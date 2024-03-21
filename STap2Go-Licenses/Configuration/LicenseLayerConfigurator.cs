@@ -20,7 +20,8 @@ public static class LicenseLayerConfigurator
         services.AddDbContext<LicensesContext>()
             .AddIdentityCore<User>()
             .AddDefaultTokenProviders()
-            .AddRoles<IdentityRole>();
+            .AddRoles<IdentityRole>()
+            .AddEntityFrameworkStores<LicensesContext>();
 
         // Authentication configuration with Identity
         services.Configure<IdentityOptions>(opts =>
