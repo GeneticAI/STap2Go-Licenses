@@ -29,6 +29,7 @@ public static class LicenseLayerConfigurator
             opts.Password.RequireNonAlphanumeric = false;
             opts.Password.RequireDigit = false;
             opts.Password.RequireUppercase = false;
+            opts.Password.RequireLowercase = false;
             opts.Password.RequiredLength = 1;
             opts.User.RequireUniqueEmail = true;
         });
