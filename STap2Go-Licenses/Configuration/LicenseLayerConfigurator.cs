@@ -19,7 +19,8 @@ public static class LicenseLayerConfigurator
         // Configure licenses database context
         services.AddDbContext<LicensesContext>()
             .AddIdentityCore<User>()
-            .AddDefaultTokenProviders();
+            .AddDefaultTokenProviders()
+            .AddRoles<IdentityRole>();
 
         // Authentication configuration with Identity
         services.Configure<IdentityOptions>(opts =>
