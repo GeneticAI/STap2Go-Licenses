@@ -46,10 +46,17 @@ namespace STap2Go_Licenses.Security
             if (user is null || !await _userManager.CheckPasswordAsync(user, pass))
                 return AuthenticateResult.Fail("Contraseña incorrecta");
 
-            var claims = new Claim[]
+            var claims = new List<Claim>
             {
                 new(ClaimTypes.Name, user.UserName!),
             };
+
+            var roles = await _userManager.GetRolesAsync(user);
+
+            foreach(var role in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
 
             var identity = new ClaimsIdentity(claims, Scheme.Name);
             var principal = new ClaimsPrincipal(identity);
