@@ -84,7 +84,7 @@ namespace STap2Go_Licenses.Helpers
 
                 if (result.Succeeded)
                 {
-                    userManager.AddToRoleAsync(testClient, Role.Admin.ToString()).Wait();
+                    userManager.AddToRoleAsync(testClient, Role.Client.ToString()).Wait();
                 }
             }
         }
